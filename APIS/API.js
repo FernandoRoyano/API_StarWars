@@ -7,7 +7,7 @@ fetch("https://swapi.dev/api/planets")
       planetBox.innerHTML = `
         <h1>Planeta: ${planet.name}</h1>
         <p>Clima: ${planet.climate}</p>
-        <p>Población: ${planet.population}</p>
+        <p>Población: ${planet.population} personas</p>
         <p>Gravedad: ${planet.gravity}</p>
         `;
       let charList = document.createElement("ul");
