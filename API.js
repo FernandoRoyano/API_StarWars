@@ -5,9 +5,10 @@ fetch("https://swapi.dev/api/planets")
       let planetBox = document.createElement("div");
       document.querySelector("body").appendChild(planetBox);
       planetBox.innerHTML = `
-        <h1>${planet.name}</h1>
+        <h1>Planeta: ${planet.name}</h1>
         <p>Clima: ${planet.climate}</p>
         <p>Población: ${planet.population}</p>
+        <p>Gravedad: ${planet.gravity}</p>
         `;
       let charList = document.createElement("ul");
       planetBox.appendChild(charList);
